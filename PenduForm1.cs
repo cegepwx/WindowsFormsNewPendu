@@ -15,7 +15,7 @@ namespace WindowsFormsNewPendu
         private string username;
         private int partiesPendu;
         private int gagnePoint = 0;
-        private int numberEssaie=4;
+        private int numberEssaie=5;
         private string motChoisi;
         private char[] motPendu;
         private ListeDeMots words = new ListeDeMots();
