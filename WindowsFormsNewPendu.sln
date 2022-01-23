@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsNewPendu", "WindowsFormsNewPendu.csproj", "{D3E18FE1-C936-4FD5-82BB-98965C23695D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3E18FE1-C936-4FD5-82BB-98965C23695D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E18FE1-C936-4FD5-82BB-98965C23695D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E18FE1-C936-4FD5-82BB-98965C23695D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E18FE1-C936-4FD5-82BB-98965C23695D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51D6435C-9587-415A-A7C6-D92304FF3BA0}
+	EndGlobalSection
+EndGlobal

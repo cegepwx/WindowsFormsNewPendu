@@ -1,0 +1,10 @@
+C:\Users\wx527\OneDrive\Bureau\monDossier\métier\WindowsFormsNewPendu\bin\Debug\WindowsFormsNewPendu.exe.config
+C:\Users\wx527\OneDrive\Bureau\monDossier\métier\WindowsFormsNewPendu\bin\Debug\WindowsFormsNewPendu.exe
+C:\Users\wx527\OneDrive\Bureau\monDossier\métier\WindowsFormsNewPendu\bin\Debug\WindowsFormsNewPendu.pdb
+C:\Users\wx527\OneDrive\Bureau\monDossier\métier\WindowsFormsNewPendu\obj\Debug\WindowsFormsNewPendu.csproj.AssemblyReference.cache
+C:\Users\wx527\OneDrive\Bureau\monDossier\métier\WindowsFormsNewPendu\obj\Debug\WindowsFormsNewPendu.PenduForm1.resources
+C:\Users\wx527\OneDrive\Bureau\monDossier\métier\WindowsFormsNewPendu\obj\Debug\WindowsFormsNewPendu.Properties.Resources.resources
+C:\Users\wx527\OneDrive\Bureau\monDossier\métier\WindowsFormsNewPendu\obj\Debug\WindowsFormsNewPendu.csproj.GenerateResource.cache
+C:\Users\wx527\OneDrive\Bureau\monDossier\métier\WindowsFormsNewPendu\obj\Debug\WindowsFormsNewPendu.csproj.CoreCompileInputs.cache
+C:\Users\wx527\OneDrive\Bureau\monDossier\métier\WindowsFormsNewPendu\obj\Debug\WindowsFormsNewPendu.exe
+C:\Users\wx527\OneDrive\Bureau\monDossier\métier\WindowsFormsNewPendu\obj\Debug\WindowsFormsNewPendu.pdb
