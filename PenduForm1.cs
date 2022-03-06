@@ -37,11 +37,16 @@ namespace WindowsFormsNewPendu
             partiesPendu++;
             numberEssaie = 5;
             label5.Text = "";
-            label6.Text = "Vous avez encore " + numberEssaie + " essaie.";
-            label7.Text = "Veuillez saisir votre essaie: ";
+            afficherLabel6et7();
             textBox1.Text = "";
             this.afficherSessoin();
             this.tirerUnMots();
+        }
+
+        public void afficherLabel6et7()
+        {
+            label6.Text = "Vous avez encore " + numberEssaie + " essaie.";
+            label7.Text = "Veuillez saisir votre essaie: ";
         }
 
 
@@ -84,11 +89,7 @@ namespace WindowsFormsNewPendu
                 {
                     avoirIndice();
                 }
-                else 
-                {
-                    numberEssaie++;
-                    userEssaie(); 
-                }
+                else { userEssaie(); }
             }
             else { userEssaie(); }
         }
@@ -100,7 +101,8 @@ namespace WindowsFormsNewPendu
             char chRandom = motChoisi[index];
             changerCharInmotPendu(chRandom);
             AfficherGagnant();
-            numberEssaie--;
+            //numberEssaie--;
+            //textBox1.Text = "";
 
             if (numberEssaie == 0)
             {
@@ -108,8 +110,10 @@ namespace WindowsFormsNewPendu
             }
             else
             {
-                label6.Text = "Vous avez encore " + numberEssaie + " essaie.";
+                afficherLabel6et7();
             }
+            numberEssaie--;
+            textBox1.Text = "";
         }
 
         public void changerCharInmotPendu(char ch)
@@ -135,12 +139,12 @@ namespace WindowsFormsNewPendu
 
         public void userEssaie()
         {
-            numberEssaie--;
-            label6.Text = "Vous avez encore " + numberEssaie + " essaie.";
-            label7.Text = "Veuillez saisir votre essaie: ";
-            
+            //numberEssaie--;
+
             if (numberEssaie > 0)
             {
+                afficherLabel6et7();
+                textBox1.Focus();
                 string input = textBox1.Text;
                 if (input.Length > motChoisi.Length)
                 {
@@ -155,11 +159,12 @@ namespace WindowsFormsNewPendu
                 perduParti();
             }
             textBox1.Text = "";
+            numberEssaie--;
         }
 
         public void perduParti()
         {
-            label6.Text = "Vous avez encore " + numberEssaie + " essaie.";
+            afficherLabel6et7();
             MessageBox.Show("Vous avez perdu.\nLe mot était: " + motChoisi);
             commencer();
         }
@@ -194,6 +199,11 @@ namespace WindowsFormsNewPendu
         }
 
         private void textBox1_DoubleClick_1(object sender, EventArgs e)
+        {
+            choisirIndice();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
             choisirIndice();
         }
